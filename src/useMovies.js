@@ -13,7 +13,7 @@ export function useMovies(query) {
           setIsLoading(true);
           setError("");
           const res = await fetch(
-            `http://www.omdbapi.com/?i=tt3896198&apikey=3b828676&s=${query}`,
+            `https://www.omdbapi.com/?i=tt3896198&apikey=3b828676&s=${query}`,
             { signal: controller.signal }
           );
 
