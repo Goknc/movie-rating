@@ -275,7 +275,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
       document.title = `MOVIE | ${title}`;
 
       return function () {
-        document.title = "usePopcorn";
+        document.title = "Movie Rating";
       };
     },
     [title]
